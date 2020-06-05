@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android dev. with internsahala"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#0d12a1"
+      android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+
+        />
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="love android"
+        android:layout_below="@+id/txtLayoutHeader"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#d08"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tony_stark_new"
+        />
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Click here"
+        android:textColor="#ffff"
+        android:background="#0091ea"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text here"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/txtLayoutSubHeader"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>
