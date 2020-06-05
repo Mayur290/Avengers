@@ -5,8 +5,8 @@
 login
 logout
 page scroll
-shared preference
-intent(to transfer data b/w one activity to another)
+shared preference (to save data) 
+intent (to transfer data b/w one activity to another)
 ```
 **Credentials**
 ```
